@@ -1,0 +1,45 @@
+body{
+    background: #0F2027;  
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    font-family: 'Merriweather', serif;
+
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#col-one {
+    background-color: tomato;
+    height: 300px;
+    width: 400px;
+    border: solid;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+#col-two {
+    background-color: tomato;
+    height: 300px;
+    width: 400px;
+    border: solid;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#type-burger {
+    background-color: tomato;
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    border: solid;
+    padding: 100px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+
