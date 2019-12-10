@@ -41,5 +41,10 @@ body{
     border-radius: 10px;
 }
 
+#burgersList {
+    text-align: left;
+    color: white;
+}
+
 
 
