@@ -22,7 +22,7 @@ $(document).ready(function () {
       devourBtn += "</button></div></li>";
 
       var deleteBtn =
-          "<li>" + burgers[i].burger_name + "<button data-id='" + burgers[i].id + "'>Delete"
+          "<li>" + burgers[i].burger_name + "<button class='delBurger' data-id='" + burgers[i].id + "'>Delete"
 
       if (burgers[i].devoured) {
         burgerDevoured.append(deleteBtn);
@@ -58,7 +58,8 @@ $(document).ready(function () {
     event.preventDefault();
 
     // This is going to target the selected ID
-    var burgerId = $(this).data("id");
+    console.log($(this))
+    var burgerId = $(this).attr("data-burgerid");
     var devouredBurger = $(this).data("devour") === true;
 
     var newDevoured = {
@@ -66,7 +67,7 @@ $(document).ready(function () {
     };
 
     // Send the PUT request.
-    $.ajax("/burgers/" + burgerId, {
+    $.ajax("/burgers/update/" + burgerId, {
         type: "PUT",
         data: JSON.stringify(newDevoured),
         dataType: "json",
@@ -76,6 +77,18 @@ $(document).ready(function () {
         // Reload the page to get the updated list
         location.reload();
     });
+});
+$(document).on("click", ".delBurger", function(event) {
+  var id = $(this).data("id");
+
+  // Send the DELETE request.
+  $.ajax("/burgers/" + id, {
+    type: "DELETE"
+  }).then(function() {
+    console.log("deleted Burgers", id);
+    // Reload the page to get the updated list
+    location.reload();
+  });
 });
   
 
