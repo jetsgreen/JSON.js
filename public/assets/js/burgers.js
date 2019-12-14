@@ -60,7 +60,7 @@ $(document).ready(function () {
     // This is going to target the selected ID
     console.log($(this))
     var burgerId = $(this).attr("data-burgerid");
-    var devouredBurger = $(this).data("devour") === true;
+    var devouredBurger = true;
 
     var newDevoured = {
         devoured: devouredBurger
