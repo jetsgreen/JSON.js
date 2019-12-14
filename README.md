@@ -12,14 +12,14 @@ This project uses MySQL, Node, Express, Handlebars, ORM (Object Relational Mappe
 # Technologies used to build app
 
 ## Backend technologies
-Node.js 
-MySQL 
-Express 
-ORM - Object Relational Mapping 
+* Node.js 
+* MySQL 
+* Express 
+* ORM - Object Relational Mapping 
 ## Frontend technologies
-HTML
-CSS
-Google Fonts
-Bootstrap 
-Javascript
-jQuery 
+* HTML
+* CSS
+* Google Fonts
+* Bootstrap 
+* Javascript
+* jQuery 
