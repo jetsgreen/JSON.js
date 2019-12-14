@@ -23,7 +23,7 @@ This project uses MySQL, Node, Express, Handlebars, ORM (Object Relational Mappe
 * Bootstrap 
 * Javascript
 * jQuery
-## ScreeShots
+## ScreenShots
 
 ![Screenshot (23)](https://user-images.githubusercontent.com/54869284/70853783-de278300-1e80-11ea-9468-a5e561aa6fcb.png)
 ![Screenshot (24)](https://user-images.githubusercontent.com/54869284/70853852-a10fc080-1e81-11ea-90de-5e9687cb9e23.png)
