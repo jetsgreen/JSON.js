@@ -22,4 +22,9 @@ This project uses MySQL, Node, Express, Handlebars, ORM (Object Relational Mappe
 * Google Fonts
 * Bootstrap 
 * Javascript
-* jQuery 
+* jQuery
+## ScreeShots
+
+![Screenshot (23)](https://user-images.githubusercontent.com/54869284/70853783-de278300-1e80-11ea-9468-a5e561aa6fcb.png)
+
+![Screenshot (23)](https://user-images.githubusercontent.com/54869284/70853785-e089dd00-1e80-11ea-955d-f9e10b893903.png)
