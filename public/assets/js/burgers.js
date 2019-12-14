@@ -12,7 +12,7 @@ $(document).ready(function () {
 
     // var burgers_elem = $("#burgersList");
     for (var i = 0; i < len; i++) {
-      var devourBtn ="<li><h6>" + burgers[i].id + "." + burgers[i].burger_name +
+      var devourBtn ="<li><h6>" +  burgers[i].burger_name +
         " <button data-burgerid='" + burgers[i].id + "' class='devBurger'>Devour Burger!</button></h6></li>";
         
         if (!burgers[i].devoured) {
@@ -22,13 +22,13 @@ $(document).ready(function () {
       devourBtn += "</button></div></li>";
 
       var deleteBtn =
-          "<li>" + burgers[i].burger_name + "<button class='delBurger' data-id='" + burgers[i].id + "'>Delete"
+          "<li><h6>" + burgers[i].burger_name + " <button class='delBurger' data-id='" + burgers[i].id + "'>Delete!"
 
       if (burgers[i].devoured) {
         burgerDevoured.append(deleteBtn);
       }
 
-      "</button></li>";
+      "</button></h6></li>";
     }
   });
 
